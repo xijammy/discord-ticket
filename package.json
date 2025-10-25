@@ -1,0 +1,12 @@
+{
+  "name": "mfg-review-bot",
+  "version": "1.0.0",
+  "description": "DMs users after Ticket Tool transcript closes, logs success/fail, restart-safe, Railway-ready.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
