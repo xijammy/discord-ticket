@@ -154,7 +154,7 @@ client.on('messageCreate', async (message) => {
     }
 
     const reviewMention = `<#${REVIEW_CHANNEL}>`;
-    const dmText = `Hi! Thank you for using our service — could you please leave a review in ${reviewMention}? 🔥 Note: If yopu have just had an optimisation, Please DO NOT forget to activate your 7 day warranty by going to #📒-optimisation-warranty-and-terms`;
+    const dmText = `Hi! Thank you for using our service — could you please leave a review in ${reviewMention}? 🔥 Note: If you have just had an optimisation, Please DO NOT forget to activate your 7 day warranty by going to #📒-optimisation-warranty-and-terms`;
 
     let sentOK = true; let errorReason = '';
     await user.send(dmText).catch(err => { sentOK = false; errorReason = err?.message || 'Unknown DM error'; });
